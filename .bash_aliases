@@ -1,4 +1,11 @@
 #<! Installation !>#
+alias install-node='sudo apt update && \
+    sudo apt install nodejs && \
+	sudo apt install npm'
+alias install-pips=' pip install virtualenv && \
+    pip install jupyterlab && \
+    pip install notebook'
+
 alias pyvim='sudo apt-get install -y vim && \
 	apt-get install -y git && \
 	git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim && \
